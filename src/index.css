@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background-color: #FEE081;
+}
+
+
+.custom-toast {
+    background-color: white !important;
+    color: #F9A826 !important;
+    font-size: 16px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.custom-toast .Toastify__progress-bar--animated {
+    background-color: #F9A826;
+}
+
+.custom-toast .Toastify__toast-icon {
+    color: #F9A826;
+}
